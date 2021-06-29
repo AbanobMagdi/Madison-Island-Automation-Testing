@@ -1,0 +1,189 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="10" passed="10" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2021-06-29T19:54:17Z" name="Default suite" finished-at="2021-06-29T19:54:34Z" duration-ms="16660">
+    <groups>
+      <group name="cucumber">
+        <method signature="AbstractTestNGCucumberTests.runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:tests.UserCanRegisterTest@fefd4a2]" name="runScenario" class="io.cucumber.testng.AbstractTestNGCucumberTests"/>
+      </group> <!-- cucumber -->
+    </groups>
+    <test started-at="2021-06-29T19:54:17Z" name="Default test" finished-at="2021-06-29T19:54:34Z" duration-ms="16660">
+      <class name="tests.UserCanRegisterTest">
+        <test-method is-config="true" signature="startDriver(java.lang.String)[pri:0, instance:tests.UserCanRegisterTest@fefd4a2]" started-at="2021-06-29T19:54:13Z" name="startDriver" finished-at="2021-06-29T19:54:17Z" duration-ms="4488" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startDriver -->
+        <test-method is-config="true" signature="setUpClass()[pri:0, instance:tests.UserCanRegisterTest@fefd4a2]" started-at="2021-06-29T19:54:17Z" name="setUpClass" finished-at="2021-06-29T19:54:18Z" duration-ms="213" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpClass -->
+        <test-method signature="UserCanRegisterSecussfully()[pri:0, instance:tests.UserCanRegisterTest@fefd4a2]" started-at="2021-06-29T19:54:18Z" name="UserCanRegisterSecussfully" finished-at="2021-06-29T19:54:22Z" duration-ms="4050" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- UserCanRegisterSecussfully -->
+        <test-method is-config="true" signature="screenshotOnFailure(org.testng.ITestResult)[pri:0, instance:tests.UserCanRegisterTest@fefd4a2]" started-at="2021-06-29T19:54:22Z" name="screenshotOnFailure" finished-at="2021-06-29T19:54:22Z" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=UserCanRegisterSecussfully status=SUCCESS method=UserCanRegisterTest.UserCanRegisterSecussfully()[pri:0, instance:tests.UserCanRegisterTest@fefd4a2] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- screenshotOnFailure -->
+        <test-method signature="UserregisterWithInvaildFname()[pri:1, instance:tests.UserCanRegisterTest@fefd4a2]" started-at="2021-06-29T19:54:22Z" name="UserregisterWithInvaildFname" finished-at="2021-06-29T19:54:23Z" duration-ms="1318" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- UserregisterWithInvaildFname -->
+        <test-method is-config="true" signature="screenshotOnFailure(org.testng.ITestResult)[pri:0, instance:tests.UserCanRegisterTest@fefd4a2]" started-at="2021-06-29T19:54:23Z" name="screenshotOnFailure" finished-at="2021-06-29T19:54:23Z" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=UserregisterWithInvaildFname status=SUCCESS method=UserCanRegisterTest.UserregisterWithInvaildFname()[pri:1, instance:tests.UserCanRegisterTest@fefd4a2] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- screenshotOnFailure -->
+        <test-method signature="UserregisterWithInvaildlname()[pri:2, instance:tests.UserCanRegisterTest@fefd4a2]" started-at="2021-06-29T19:54:23Z" name="UserregisterWithInvaildlname" finished-at="2021-06-29T19:54:24Z" duration-ms="1288" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- UserregisterWithInvaildlname -->
+        <test-method is-config="true" signature="screenshotOnFailure(org.testng.ITestResult)[pri:0, instance:tests.UserCanRegisterTest@fefd4a2]" started-at="2021-06-29T19:54:24Z" name="screenshotOnFailure" finished-at="2021-06-29T19:54:24Z" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=UserregisterWithInvaildlname status=SUCCESS method=UserCanRegisterTest.UserregisterWithInvaildlname()[pri:2, instance:tests.UserCanRegisterTest@fefd4a2] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- screenshotOnFailure -->
+        <test-method signature="UserregisterWithBlankemail()[pri:3, instance:tests.UserCanRegisterTest@fefd4a2]" started-at="2021-06-29T19:54:24Z" name="UserregisterWithBlankemail" finished-at="2021-06-29T19:54:26Z" duration-ms="1304" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- UserregisterWithBlankemail -->
+        <test-method is-config="true" signature="screenshotOnFailure(org.testng.ITestResult)[pri:0, instance:tests.UserCanRegisterTest@fefd4a2]" started-at="2021-06-29T19:54:26Z" name="screenshotOnFailure" finished-at="2021-06-29T19:54:26Z" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=UserregisterWithBlankemail status=SUCCESS method=UserCanRegisterTest.UserregisterWithBlankemail()[pri:3, instance:tests.UserCanRegisterTest@fefd4a2] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- screenshotOnFailure -->
+        <test-method signature="UserregisterWithInvaildlemail()[pri:4, instance:tests.UserCanRegisterTest@fefd4a2]" started-at="2021-06-29T19:54:26Z" name="UserregisterWithInvaildlemail" finished-at="2021-06-29T19:54:27Z" duration-ms="1265" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- UserregisterWithInvaildlemail -->
+        <test-method is-config="true" signature="screenshotOnFailure(org.testng.ITestResult)[pri:0, instance:tests.UserCanRegisterTest@fefd4a2]" started-at="2021-06-29T19:54:27Z" name="screenshotOnFailure" finished-at="2021-06-29T19:54:27Z" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=UserregisterWithInvaildlemail status=SUCCESS method=UserCanRegisterTest.UserregisterWithInvaildlemail()[pri:4, instance:tests.UserCanRegisterTest@fefd4a2] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- screenshotOnFailure -->
+        <test-method signature="UserregisterWithInvaildlpassword()[pri:5, instance:tests.UserCanRegisterTest@fefd4a2]" started-at="2021-06-29T19:54:27Z" name="UserregisterWithInvaildlpassword" finished-at="2021-06-29T19:54:28Z" duration-ms="1290" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- UserregisterWithInvaildlpassword -->
+        <test-method is-config="true" signature="screenshotOnFailure(org.testng.ITestResult)[pri:0, instance:tests.UserCanRegisterTest@fefd4a2]" started-at="2021-06-29T19:54:28Z" name="screenshotOnFailure" finished-at="2021-06-29T19:54:28Z" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=UserregisterWithInvaildlpassword status=SUCCESS method=UserCanRegisterTest.UserregisterWithInvaildlpassword()[pri:5, instance:tests.UserCanRegisterTest@fefd4a2] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- screenshotOnFailure -->
+        <test-method signature="UserregisterWithInvaildlpasswordLessThan6Digits()[pri:5, instance:tests.UserCanRegisterTest@fefd4a2]" started-at="2021-06-29T19:54:28Z" name="UserregisterWithInvaildlpasswordLessThan6Digits" finished-at="2021-06-29T19:54:29Z" duration-ms="1321" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- UserregisterWithInvaildlpasswordLessThan6Digits -->
+        <test-method is-config="true" signature="screenshotOnFailure(org.testng.ITestResult)[pri:0, instance:tests.UserCanRegisterTest@fefd4a2]" started-at="2021-06-29T19:54:29Z" name="screenshotOnFailure" finished-at="2021-06-29T19:54:29Z" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=UserregisterWithInvaildlpasswordLessThan6Digits status=SUCCESS method=UserCanRegisterTest.UserregisterWithInvaildlpasswordLessThan6Digits()[pri:5, instance:tests.UserCanRegisterTest@fefd4a2] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- screenshotOnFailure -->
+        <test-method signature="UserregisterWithInvaildlConfiremPassword()[pri:6, instance:tests.UserCanRegisterTest@fefd4a2]" started-at="2021-06-29T19:54:29Z" name="UserregisterWithInvaildlConfiremPassword" finished-at="2021-06-29T19:54:31Z" duration-ms="1279" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- UserregisterWithInvaildlConfiremPassword -->
+        <test-method is-config="true" signature="screenshotOnFailure(org.testng.ITestResult)[pri:0, instance:tests.UserCanRegisterTest@fefd4a2]" started-at="2021-06-29T19:54:31Z" name="screenshotOnFailure" finished-at="2021-06-29T19:54:31Z" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=UserregisterWithInvaildlConfiremPassword status=SUCCESS method=UserCanRegisterTest.UserregisterWithInvaildlConfiremPassword()[pri:6, instance:tests.UserCanRegisterTest@fefd4a2] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- screenshotOnFailure -->
+        <test-method signature="UserregisterWithUnMatchedConfiremPassword()[pri:7, instance:tests.UserCanRegisterTest@fefd4a2]" started-at="2021-06-29T19:54:31Z" name="UserregisterWithUnMatchedConfiremPassword" finished-at="2021-06-29T19:54:32Z" duration-ms="886" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- UserregisterWithUnMatchedConfiremPassword -->
+        <test-method is-config="true" signature="screenshotOnFailure(org.testng.ITestResult)[pri:0, instance:tests.UserCanRegisterTest@fefd4a2]" started-at="2021-06-29T19:54:32Z" name="screenshotOnFailure" finished-at="2021-06-29T19:54:32Z" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=UserregisterWithUnMatchedConfiremPassword status=SUCCESS method=UserCanRegisterTest.UserregisterWithUnMatchedConfiremPassword()[pri:7, instance:tests.UserCanRegisterTest@fefd4a2] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- screenshotOnFailure -->
+        <test-method signature="UserregisterWithEmailAlreayExistent()[pri:8, instance:tests.UserCanRegisterTest@fefd4a2]" started-at="2021-06-29T19:54:32Z" name="UserregisterWithEmailAlreayExistent" finished-at="2021-06-29T19:54:34Z" duration-ms="2384" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- UserregisterWithEmailAlreayExistent -->
+        <test-method is-config="true" signature="screenshotOnFailure(org.testng.ITestResult)[pri:0, instance:tests.UserCanRegisterTest@fefd4a2]" started-at="2021-06-29T19:54:34Z" name="screenshotOnFailure" finished-at="2021-06-29T19:54:34Z" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=UserregisterWithEmailAlreayExistent status=SUCCESS method=UserCanRegisterTest.UserregisterWithEmailAlreayExistent()[pri:8, instance:tests.UserCanRegisterTest@fefd4a2] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- screenshotOnFailure -->
+        <test-method is-config="true" signature="tearDownClass()[pri:0, instance:tests.UserCanRegisterTest@fefd4a2]" started-at="2021-06-29T19:54:34Z" name="tearDownClass" finished-at="2021-06-29T19:54:34Z" duration-ms="11" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownClass -->
+        <test-method is-config="true" signature="stopDriver()[pri:0, instance:tests.UserCanRegisterTest@fefd4a2]" started-at="2021-06-29T19:54:34Z" name="stopDriver" finished-at="2021-06-29T19:54:35Z" duration-ms="673" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- stopDriver -->
+      </class> <!-- tests.UserCanRegisterTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
